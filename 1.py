@@ -1,6 +1,6 @@
-name = "Max"
-surname = "Maggiore"
-born  = 2007
+name = input('Введите имя')
+surname = input('Введите фамилию')
+born  = int(input('Введите год рождения'))
 print (name, "_", surname,"_", born)
 
 name, surname = surname, name
